@@ -13,6 +13,14 @@
 		188CF7DC210D582E008A0413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188CF7DB210D582E008A0413 /* Assets.xcassets */; };
 		188CF7DF210D582E008A0413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188CF7DD210D582E008A0413 /* LaunchScreen.storyboard */; };
 		188CF7E2210D582E008A0413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CF7E1210D582E008A0413 /* main.m */; };
+		188CF7EF210D589D008A0413 /* ZSSRichTextEditor.js in Resources */ = {isa = PBXBuildFile; fileRef = 188CF7EB210D589D008A0413 /* ZSSRichTextEditor.js */; };
+		188CF7F0210D589D008A0413 /* editor.html in Resources */ = {isa = PBXBuildFile; fileRef = 188CF7EC210D589D008A0413 /* editor.html */; };
+		188CF7F1210D589D008A0413 /* JSBeautifier.js in Resources */ = {isa = PBXBuildFile; fileRef = 188CF7ED210D589D008A0413 /* JSBeautifier.js */; };
+		188CF7F2210D589D008A0413 /* jQuery.js in Resources */ = {isa = PBXBuildFile; fileRef = 188CF7EE210D589D008A0413 /* jQuery.js */; };
+		188CF7FA210D5988008A0413 /* ERichTextEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CF7F8210D5988008A0413 /* ERichTextEditorView.m */; };
+		188CF7FD210D59BB008A0413 /* ContentEditFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CF7FC210D59BA008A0413 /* ContentEditFooterView.m */; };
+		188CF805210D5D8E008A0413 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CF804210D5D8E008A0413 /* UIView+Extension.m */; };
+		188CF808210D5FBC008A0413 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CF807210D5FBC008A0413 /* UIColor+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,20 @@
 		188CF7DE210D582E008A0413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		188CF7E0210D582E008A0413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188CF7E1210D582E008A0413 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188CF7EB210D589D008A0413 /* ZSSRichTextEditor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ZSSRichTextEditor.js; sourceTree = "<group>"; };
+		188CF7EC210D589D008A0413 /* editor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = editor.html; sourceTree = "<group>"; };
+		188CF7ED210D589D008A0413 /* JSBeautifier.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSBeautifier.js; sourceTree = "<group>"; };
+		188CF7EE210D589D008A0413 /* jQuery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jQuery.js; sourceTree = "<group>"; };
+		188CF7F8210D5988008A0413 /* ERichTextEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERichTextEditorView.m; sourceTree = "<group>"; };
+		188CF7F9210D5988008A0413 /* ERichTextEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERichTextEditorView.h; sourceTree = "<group>"; };
+		188CF7FB210D59BA008A0413 /* ContentEditFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentEditFooterView.h; sourceTree = "<group>"; };
+		188CF7FC210D59BA008A0413 /* ContentEditFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentEditFooterView.m; sourceTree = "<group>"; };
+		188CF7FF210D5B0B008A0413 /* Eleven.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Eleven.h; sourceTree = "<group>"; };
+		188CF801210D5B6B008A0413 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		188CF803210D5D8E008A0413 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		188CF804210D5D8E008A0413 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		188CF806210D5FBC008A0413 /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		188CF807210D5FBC008A0413 /* UIColor+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +80,111 @@
 		188CF7D1210D582C008A0413 /* ERichTextEditor */ = {
 			isa = PBXGroup;
 			children = (
-				188CF7D2210D582C008A0413 /* AppDelegate.h */,
-				188CF7D3210D582C008A0413 /* AppDelegate.m */,
+				188CF7F3210D58BA008A0413 /* Classes */,
+				188CF7F6210D58E9008A0413 /* Supporting Files */,
+			);
+			path = ERichTextEditor;
+			sourceTree = "<group>";
+		};
+		188CF7E8210D5875008A0413 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				188CF802210D5D6F008A0413 /* Category */,
+				188CF7E9210D5883008A0413 /* ThirdPart */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		188CF7E9210D5883008A0413 /* ThirdPart */ = {
+			isa = PBXGroup;
+			children = (
+				188CF7EA210D589D008A0413 /* ContentEditSource */,
+			);
+			path = ThirdPart;
+			sourceTree = "<group>";
+		};
+		188CF7EA210D589D008A0413 /* ContentEditSource */ = {
+			isa = PBXGroup;
+			children = (
+				188CF7EB210D589D008A0413 /* ZSSRichTextEditor.js */,
+				188CF7EC210D589D008A0413 /* editor.html */,
+				188CF7ED210D589D008A0413 /* JSBeautifier.js */,
+				188CF7EE210D589D008A0413 /* jQuery.js */,
+			);
+			path = ContentEditSource;
+			sourceTree = "<group>";
+		};
+		188CF7F3210D58BA008A0413 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				188CF7FE210D5AF5008A0413 /* Global */,
+				188CF7F5210D58C9008A0413 /* View */,
+				188CF7F4210D58C1008A0413 /* Controller */,
+				188CF7F7210D590A008A0413 /* Other */,
+				188CF7E8210D5875008A0413 /* Library */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		188CF7F4210D58C1008A0413 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				188CF7D5210D582C008A0413 /* ViewController.h */,
 				188CF7D6210D582C008A0413 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		188CF7F5210D58C9008A0413 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				188CF7FB210D59BA008A0413 /* ContentEditFooterView.h */,
+				188CF7FC210D59BA008A0413 /* ContentEditFooterView.m */,
+				188CF7F9210D5988008A0413 /* ERichTextEditorView.h */,
+				188CF7F8210D5988008A0413 /* ERichTextEditorView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		188CF7F6210D58E9008A0413 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				188CF7D8210D582C008A0413 /* Main.storyboard */,
 				188CF7DB210D582E008A0413 /* Assets.xcassets */,
 				188CF7DD210D582E008A0413 /* LaunchScreen.storyboard */,
 				188CF7E0210D582E008A0413 /* Info.plist */,
 				188CF7E1210D582E008A0413 /* main.m */,
 			);
-			path = ERichTextEditor;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188CF7F7210D590A008A0413 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				188CF7D2210D582C008A0413 /* AppDelegate.h */,
+				188CF7D3210D582C008A0413 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		188CF7FE210D5AF5008A0413 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				188CF7FF210D5B0B008A0413 /* Eleven.h */,
+				188CF801210D5B6B008A0413 /* PrefixHeader.pch */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		188CF802210D5D6F008A0413 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				188CF803210D5D8E008A0413 /* UIView+Extension.h */,
+				188CF804210D5D8E008A0413 /* UIView+Extension.m */,
+				188CF806210D5FBC008A0413 /* UIColor+Extension.h */,
+				188CF807210D5FBC008A0413 /* UIColor+Extension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +245,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				188CF7DF210D582E008A0413 /* LaunchScreen.storyboard in Resources */,
+				188CF7F1210D589D008A0413 /* JSBeautifier.js in Resources */,
+				188CF7F0210D589D008A0413 /* editor.html in Resources */,
+				188CF7EF210D589D008A0413 /* ZSSRichTextEditor.js in Resources */,
 				188CF7DC210D582E008A0413 /* Assets.xcassets in Resources */,
+				188CF7F2210D589D008A0413 /* jQuery.js in Resources */,
 				188CF7DA210D582C008A0413 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +261,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188CF805210D5D8E008A0413 /* UIView+Extension.m in Sources */,
+				188CF7FD210D59BB008A0413 /* ContentEditFooterView.m in Sources */,
 				188CF7D7210D582C008A0413 /* ViewController.m in Sources */,
+				188CF808210D5FBC008A0413 /* UIColor+Extension.m in Sources */,
 				188CF7E2210D582E008A0413 /* main.m in Sources */,
+				188CF7FA210D5988008A0413 /* ERichTextEditorView.m in Sources */,
 				188CF7D4210D582C008A0413 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,12 +408,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ERichTextEditor/Info.plist;
+				GCC_PREFIX_HEADER = ERichTextEditor/Classes/Global/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/ERichTextEditor/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Hawk.ERichTextEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eleven.ERichTextEditor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,12 +426,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ERichTextEditor/Info.plist;
+				GCC_PREFIX_HEADER = ERichTextEditor/Classes/Global/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/ERichTextEditor/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Hawk.ERichTextEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eleven.ERichTextEditor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

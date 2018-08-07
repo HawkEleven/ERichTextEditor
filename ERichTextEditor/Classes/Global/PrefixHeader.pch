@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  ERichTextEditor
+//
+//  Created by Eleven on 2018/7/29.
+//  Copyright © 2018年 Eleven. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import "Eleven.h"
+#import "UIView+Extension.h"
+#import "UIColor+Extension.h"
+
+#endif
+
+#endif /* PrefixHeader_pch */
