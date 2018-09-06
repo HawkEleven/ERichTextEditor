@@ -696,7 +696,7 @@ zss_editor.setCustomCSS = function(customCSS) {
 /// 以下方法为笔者新增
 zss_editor.e_insertImage = function(url, alt) {
     zss_editor.restorerange();
-    var html = '<div><img src="'+url+'"/ onload="zss_editor.e_caculateHeight()"><div style="text-align: center;color: #888;">图片发自eleven</div><hr style="border: 0;border-top: 1px solid #ccc;margin: 5px 0;"><div><br></div><div><br></div></div>';
+    var html = '<div><img src="'+url+'"/ onclick="zss_editor.e_imageClick()" onload="zss_editor.e_caculateHeight()"><div style="text-align: center;color: #888;">图片发自eleven</div><hr style="border: 0;border-top: 1px solid #ccc;margin: 5px 0;"><div><br></div><div><br></div></div>';
     zss_editor.insertHTML(html);
     zss_editor.enabledEditingItems();
 }
@@ -712,6 +712,11 @@ zss_editor.e_setBlockquote = function() {
     document.execCommand('formatBlock', false, formatName);
     zss_editor.insertHTML('<div><br></div>');
     zss_editor.enabledEditingItems();
+}
+
+zss_editor.e_imageClick = function() {
+    console.log('点击图片...')
+    zss_editor.blurEditor();
 }
 
 //end
