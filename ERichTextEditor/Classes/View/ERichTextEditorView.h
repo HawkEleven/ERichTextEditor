@@ -14,6 +14,8 @@
 @property (nonatomic,   copy) void (^heightBlock)(CGFloat height);
 @property (nonatomic,   copy) void (^scrollYOffset)(CGFloat offset);
 
+- (void)preloadedWithHTML:(NSString *)html;
+
 - (void)setBold;
 - (void)setItalic;
 - (void)setUnorderedList;

@@ -30,6 +30,9 @@ static CGFloat kFooterHeight = 44.f;
     [self.view addSubview:self.editorView];
     [self.view addSubview:self.footerView];
     
+    UIBarButtonItem *leftBarItem = [[UIBarButtonItem alloc] initWithTitle:@"加载HTML" style:UIBarButtonItemStylePlain target:self action:@selector(leftClick)];
+    self.navigationItem.leftBarButtonItem = leftBarItem;
+    
     UIBarButtonItem *rightBarItem = [[UIBarButtonItem alloc] initWithTitle:@"导出HTML" style:UIBarButtonItemStylePlain target:self action:@selector(rightClick)];
     self.navigationItem.rightBarButtonItem = rightBarItem;
     
@@ -57,6 +60,11 @@ static CGFloat kFooterHeight = 44.f;
 }
 
 #pragma mark - event response
+- (void)leftClick {
+    // 此处可加载导出的HTML
+    [self.editorView preloadedWithHTML:@"测试abc"];
+}
+
 - (void)rightClick {
     NSString *htmlStr = [self.editorView getHTML];
     NSLog(@"\n=====\n%@\n=====", htmlStr);

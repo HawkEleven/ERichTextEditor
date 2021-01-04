@@ -57,6 +57,12 @@ static CGFloat const kItemHeight = 44;
     [webView loadHTMLString:htmlCont baseURL:baseURL];
 }
 
+#pragma mark - public methods
+- (void)preloadedWithHTML:(NSString *)html {
+    html = [NSString stringWithFormat:@"zss_editor.setHTML(\"%@\");", html];
+    [self.webView stringByEvaluatingJavaScriptFromString:html];
+}
+
 #pragma mark - set text
 - (void)setBold {
     NSString *trigger = @"zss_editor.setBold();";
